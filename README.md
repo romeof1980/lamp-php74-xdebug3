@@ -24,3 +24,7 @@ This is a rielaboration of an existing project (was without xdebug)
 
 See pictures in folder images-readme to replicate xdebug config in phpstorm
 Config in vscode is possible but not mentioned here
+
+
+author: romeo festi 
+https://www.linkedin.com/in/romeo-festi-4852646a/
