@@ -20,11 +20,14 @@ Run mysql client:
 
 - `docker-compose exec db mysql -u root -p` 
 
-This is a rielaboration of an existing project (was without xdebug)
+This is a re-elaboration of an existing project (was without xdebug)
 
-See pictures in folder images-readme to replicate xdebug config in phpstorm
-Config in vscode is possible but not mentioned here
+See pictures in folder images-readme to replicate xdebug config in phpstorm.
+Config in vscode is possible but not mentioned here.
 
+Added functionlity to get API data and outputting it in table.
+```
+visit "getApiCats.php"
+```
 
-author: romeo festi 
-https://www.linkedin.com/in/romeo-festi-4852646a/
+author: romeo festi - https://www.linkedin.com/in/romeo-festi-4852646a/

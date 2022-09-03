@@ -15,7 +15,7 @@
 
     <?php
 
-    // Connexion et sélection de la base
+    // prepare connection to db
     $conn = mysqli_connect('db', 'root', 'test', "myDb");
 
     //xdebug_break();
@@ -35,7 +35,7 @@
     }
     echo '</table>';
 
-    /* Libération du jeu de résultats */
+    /* release results set (free the memory from the results) */
     $result->close();
 
     mysqli_close($conn);
